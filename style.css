@@ -1,0 +1,35 @@
+body{
+  background:#020617;
+  font-family:Arial;
+  color:white;
+  margin:0;
+}
+
+nav{
+  position:fixed;
+  top:0;
+  width:100%;
+  background:#0f172a;
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  padding:10px;
+}
+
+nav a{
+  color:#94a3b8;
+  text-decoration:none;
+}
+
+nav a.active{
+  color:#22c55e;
+}
+
+section{
+  height:100vh;
+  padding-top:60px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:24px;
+}
